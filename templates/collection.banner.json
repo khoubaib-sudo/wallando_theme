@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-banner-template",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
