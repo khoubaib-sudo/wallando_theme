@@ -116,8 +116,6 @@
       if (window.Shopify && window.Shopify.designMode) document.documentElement.className += ' in-theme-editor';
     </script>
 
-    
-
     <!-- Global site tag (gtag.js) - Google Ads: 417828782 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-417828782"></script>
     <script>
@@ -143,6 +141,20 @@
       });
     </script>
 
+    <!--
+      Facebook Domain Verfication für "Wallando.de" - Eingesetzt von Jason Martin !! NICHT ENTFERNEN & IMMER IN NEUE THEMES KOPIEREN !!
+    -->
+    <meta name="facebook-domain-verification" content="frzyxa4trtt02dcrcdr1fmmt6e864u">
+
+    <!-- GSSTART Coming Soon code start. Do not change -->
+    <script type="text/javascript">
+      gsProductByVariant = {}; {% if product.id > 1 %}{% for variant in product.variants %} gsProductByVariant[{{variant.id}}] = {% if variant.available %} 1 {% else %} 0 {% endif %}; {% endfor %}{% endif %}  gsProductCSID = "{{ product.id }}"; gsDefaultV = "{{ product.selected_or_first_available_variant.id }}";
+    </script>
+    <script
+      type="text/javascript"
+      src="https://gravity-software.com/js/shopify/pac_shop37444.js?v=84d2faae6e19fe9f0021acf0621e56df"
+    ></script>
+    <!-- Coming Soon code end. Do not change GSEND -->
     <!-- Hotjar Tracking Code for https://www.wallando.de -->
     <script>
       (function (h, o, t, j, a, r) {
@@ -159,25 +171,12 @@
         a.appendChild(r);
       })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
+  <!--CPC-->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <!--CPC-->
+  <script src='https://calcapi.printgrid.io/shopify/calculator.js'></script>
 
-    <!--
-      Facebook Domain Verfication für "Wallando.de" - Eingesetzt von Jason Martin !! NICHT ENTFERNEN & IMMER IN NEUE THEMES KOPIEREN !!
-    -->
-    <meta name="facebook-domain-verification" content="frzyxa4trtt02dcrcdr1fmmt6e864u">
 
-    <!-- GSSTART Coming Soon code start. Do not change -->
-    <script type="text/javascript">
-      gsProductByVariant = {}; {% if product.id > 1 %}{% for variant in product.variants %} gsProductByVariant[{{variant.id}}] = {% if variant.available %} 1 {% else %} 0 {% endif %}; {% endfor %}{% endif %}  gsProductCSID = "{{ product.id }}"; gsDefaultV = "{{ product.selected_or_first_available_variant.id }}";
-    </script>
-    <script
-      type="text/javascript"
-      src="https://gravity-software.com/js/shopify/pac_shop37444.js?v=84d2faae6e19fe9f0021acf0621e56df"
-    ></script>
-    <!-- Coming Soon code end. Do not change GSEND -->
-    <!-- CPC -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- CPC -->
-    <script src="{{ 'calculator.js' | asset_url }}"></script>
   </head>
 
   <body
@@ -400,8 +399,6 @@
     </script>
     <a class="skip-to-main" href="#main-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-    
-
     <div
       class="reviews-io-floating-widget"
       data-widget-id="MRrtDYaGbSE873FL"
@@ -491,5 +488,16 @@
       }
     </style>
     <!-- End Areviews style Code -->
+
+    <!-- mouseflow script -->
+    <script type="text/javascript">
+      window._mfq = window._mfq || [];
+      (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.defer = true;
+        mf.src = "//cdn.mouseflow.com/projects/4a0712ed-b28f-46be-9c12-ac4194de6fdc.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+    </script>
   </body>
 </html>
